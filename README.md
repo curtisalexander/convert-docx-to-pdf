@@ -7,7 +7,13 @@ Convert-DocxToPdf converts a directory of Word documents (docx) into pdfs
 The details below are produced from PowerShell using the following command. It removes the path prefix to the script.
 
 ```powershell
-(Get-Command .\Convert-DocxToPdf.ps1).Source | Split-Path | ForEach-Object { (Get-Help .\Convert-DocxToPdf.ps1 -Detailed | Out-String -Stream).replace((Join-Path $_ "\"), "") }
+@"
+(Get-Command .\Convert-DocxToPdf.ps1).Source | Split-Path |
+ForEach-Object {
+    (Get-Help .\Convert-DocxToPdf.ps1 -Detailed |
+    Out-String -Stream).replace((Join-Path `$_ '\'), '')
+}
+"@ | Invoke-Expression
 ```
 
 <br/>
