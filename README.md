@@ -47,7 +47,7 @@ PARAMETERS
 
     -------------------------- EXAMPLE 1 --------------------------
 
-    PS > Convert-DocxToPdf -docxDir "/Users/myusername/Documents/Word"
+    PS > Convert-DocxToPdf -docxDir "C:\Users\myuser\Documents\Word"
 
 
 

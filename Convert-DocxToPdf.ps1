@@ -10,7 +10,7 @@ The resulting pdf files will have the same filename as the Word documents.
 The full path to the directory containing the Word documents
 
 .EXAMPLE
-Convert-DocxToPdf -docxDir "/Users/myusername/Documents/Word"
+Convert-DocxToPdf -docxDir "C:\Users\myuser\Documents\Word"
 
 .LINK
 https://github.com/curtisalexander/convert-docx-to-pdf
