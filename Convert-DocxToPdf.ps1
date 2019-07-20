@@ -3,7 +3,8 @@
 Convert-DocxToPdf converts a directory of Word documents (docx) into pdfs
 
 .DESCRIPTION
-Convert-DocxToPdf converts a directory of Word documents (docx) into pdfs.  The resulting pdf files will have the same filename as the Word documents.
+Convert-DocxToPdf converts a directory of Word documents (docx) into pdfs.
+The resulting pdf files will have the same filename as the Word documents.
 
 .PARAMETER docxDir
 The full path to the directory containing the Word documents
