@@ -1,6 +1,6 @@
 # convert-docx-to-pdf
 
-Convert-DocxToPdf converts a directory of Word documents (docx) into pdfs
+Convert-DocxToPdf converts a directory of Word documents (docx) into pdfs on Windows.
 
 ## Use
 
